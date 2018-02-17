@@ -8,7 +8,7 @@ First, downloads the repo to your Computer:
 $ cd ~/Downloads
 $ git clone https://github.com/mgangster/RoboND-Localization-Project.git
 ```
-For this setup, catkin_ws is the name of active ROS Workspace, if your workspace name is different, change the commands accordingly
+For this setup, catkin_ws is the name of active ROS Workspace, if your workspace name is different, change the commands accordingly. 
 If you do not have an active ROS workspace, you can create one by:
 
 ```sh
@@ -45,4 +45,5 @@ $ roslaunch sweeping_bot amcl.launch
 $ rosrun sweeping_bot navigation_goal_1
 ```
 Once you run the program, you can see a sweeping bot is navigating in a maze to a goal.
+
 ![demo-2](https://github.com/mgangster/RoboND-Localization-Project/blob/master/sweeping_bot/misc/Selection_005.png)
