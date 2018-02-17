@@ -27,12 +27,7 @@ Build the project:
 $ cd ~/catkin_ws
 $ catkin_make
 ```
-Add following to your .bashrc file
-```
-export GAZEBO_MODEL_PATH=~/catkin_ws/src/RoboND-Perception-Project/pr2_robot/models:$GAZEBO_MODEL_PATH
-```
-
-If you haven’t already, following line can be added to your .bashrc to auto-source all new terminals
+Source the terminal:
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
@@ -46,4 +41,4 @@ $ rosrun sweeping_bot navigation_goal_1
 ```
 Once you run the program, you can see a sweeping bot is navigating in a maze to a goal.
 
-![demo-2](https://github.com/mgangster/RoboND-Localization-Project/blob/master/sweeping_bot/misc/Selection_005.png)
+<img src="./sweeping_bot/misc/Selection_005.png" width="600">
